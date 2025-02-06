@@ -6,10 +6,10 @@
 
 .container {
     display: grid;
-    gap: 10px;
+    gap: var(--space-3);
     grid-template-columns: repeat(12, 1fr);
     margin: 0 auto;
-    max-width: 1024px;
+    max-width: var(--max-width);
     padding: 0 10px;
     width: 100%;
 }
