@@ -8,15 +8,12 @@
     display: grid;
     gap: var(--space-3);
     grid-template-columns: repeat(12, 1fr);
-    margin: 0 auto;
     max-width: var(--max-width);
-    padding: 0 10px;
     width: 100%;
 }
 
 .container.full-width {
     max-width: 100%;
-    padding: 0;
 }
 
 [class*="col-"] {
